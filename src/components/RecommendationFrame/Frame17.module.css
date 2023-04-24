@@ -1,0 +1,78 @@
+.root {
+  position: relative;
+  width: 3217px;
+  height: 1810px;
+  align-items: flex-start;
+}
+.rectangle1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3217px;
+  height: 1810px;
+  background-color: #fff;
+}
+.undraw_showing_support_re_5f2v {
+  position: absolute;
+  left: 1980px;
+  top: 848px;
+  width: 1237px;
+  height: 962px;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.dapagliflozin {
+  color: #4d77ff;
+  font-size: 150px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 222px;
+  top: 766px;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.weRecommend {
+  color: #000;
+  font-size: 80px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 222px;
+  top: 663px;
+  width: 953px;
+  height: 205px;
+  flex-direction: column;
+}
+.rectangle7 {
+  position: absolute;
+  left: 222px;
+  top: 1018px;
+  width: 741px;
+  height: 128px;
+  outline: solid 2px #4d77ff;
+  outline-offset: -2px;
+  border-radius: 25px;
+  background-color: #4d77ff;
+}
+.learnMore {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 222px;
+  top: 1053px;
+  width: 741px;
+  height: 49px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}

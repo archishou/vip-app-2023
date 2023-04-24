@@ -1,0 +1,123 @@
+.root {
+  position: relative;
+  width: 3217px;
+  height: 1810px;
+  align-items: flex-start;
+}
+.rectangle1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3217px;
+  height: 1810px;
+  background-color: #fff;
+}
+.weLlRecommendTheBestTreatmentP {
+  color: #000;
+  font-size: 50px;
+  font-weight: 300;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 222px;
+  top: 815px;
+  width: 1387px;
+  height: 222px;
+  flex-direction: column;
+}
+.undraw_doctors_p6aq1 {
+  position: absolute;
+  left: 1919px;
+  top: 691px;
+  width: 1298px;
+  height: 1119px;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}
+.disclaimerWeAreNotLicensedProf {
+  position: absolute;
+  left: 222px;
+  top: 967px;
+  width: 1343px;
+  height: 206px;
+  flex-direction: column;
+}
+.labelWrapper {
+  font-size: 32px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  flex-shrink: 1;
+}
+.label {
+  color: #4d77ff;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.label2 {
+  color: #4d77ff;
+  font-size: 32px;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+}
+.rectangle3 {
+  position: absolute;
+  left: 222px;
+  top: 1099px;
+  width: 741px;
+  height: 128px;
+  outline: solid 2px #fff;
+  outline-offset: -2px;
+  border-radius: 25px;
+  background-color: #4d77ff;
+}
+.getStartedNow {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 600;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 222px;
+  top: 1131px;
+  width: 741px;
+  height: 49px;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+.welcome {
+  color: #000;
+  font-size: 150px;
+  font-weight: bold;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 222px;
+  top: 615px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}
+.diabetesAndChronicDiseaseSyste {
+  color: #000;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  position: absolute;
+  left: 222px;
+  top: 127px;
+  width: min-content;
+  height: min-content;
+  text-align: center;
+  align-items: center;
+  white-space: nowrap;
+  flex-direction: column;
+}

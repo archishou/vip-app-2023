@@ -1,7 +1,6 @@
 import {memo, useState} from 'react';
 import type { FC } from 'react';
 
-import resets from '../../../../obesity/src/components/_resets.module.css';
 import classes from './Frame17.module.css';
 import { Frame6921Icon } from './Frame6921Icon';
 import { IconNavigationArrow_back_24pxI } from './IconNavigationArrow_back_24pxI';
@@ -39,7 +38,7 @@ export const Obesity: FC<Props> = memo(function Frame17(props = {}) {
 
 
     return (
-    <div className={`${resets.storybrainResets} ${classes.root}`}>
+    <div className={`${classes.root}`}>
       <div className={classes.rectangle1}></div>
       <button className={classes.doYouHaveObesity}>Do you have obesity?</button>
       <div className={classes.undraw_with_love_re_1q3m1}>

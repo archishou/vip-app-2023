@@ -1,7 +1,6 @@
 import {memo, useState} from 'react';
 import type { FC } from 'react';
 
-import resets from '../../../../ibs/src/components/_resets.module.css';
 import classes from './Frame8.module.css';
 import { Frame6921Icon } from './Frame6921Icon';
 import { IconNavigationArrow_back_24pxI } from './IconNavigationArrow_back_24pxI';
@@ -37,7 +36,7 @@ export const IBS: FC<Props> = memo(function Frame8(props = {}) {
     }
 
     return (
-    <div className={`${resets.storybrainResets} ${classes.root}`}>
+    <div className={`${classes.root}`}>
       <div className={classes.rectangle1}></div>
       <div className={classes.someSymptomsMayIncludeRepeated}>
         Some symptoms may include repeated pain in the abdomen, diarrhea, constipation, or both.

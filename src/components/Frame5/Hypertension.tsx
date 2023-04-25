@@ -1,7 +1,6 @@
 import {memo, useState} from 'react';
 import type { FC } from 'react';
 
-import resets from '../../../../hypertension/src/components/_resets.module.css';
 import classes from './Frame5.module.css';
 import { Frame6921Icon } from './Frame6921Icon';
 import { Undraw_with_love_re_1q3m1Icon } from './Undraw_with_love_re_1q3m1Icon';
@@ -30,7 +29,7 @@ export const Hypertension: FC<Props> = memo(function Frame5(props = {}) {
     }
 
     return (
-    <div className={`${resets.storybrainResets} ${classes.root}`}>
+    <div className={`${classes.root}`}>
       <div className={classes.rectangle1}></div>
       <div className={classes.HypertensionOrHighBloodPressur}>
         *Hypertension, or high blood pressure, is usually 180/120 or higher

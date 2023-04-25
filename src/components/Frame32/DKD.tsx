@@ -1,7 +1,6 @@
 import {memo, useState} from 'react';
 import type { FC } from 'react';
 
-import resets from '../../../../dkd/src/components/_resets.module.css';
 import classes from './Frame32.module.css';
 import { Frame6921Icon } from './Frame6921Icon';
 import { IconNavigationArrow_back_24pxI } from './IconNavigationArrow_back_24pxI';
@@ -39,7 +38,7 @@ export const DKD: FC<Props> = memo(function Frame32(props = {}) {
     }
 
     return (
-    <div className={`${resets.storybrainResets} ${classes.root}`}>
+    <div className={`${classes.root}`}>
       <div className={classes.rectangle1}></div>
       <div className={classes.diabeticKidneyDiseaseOccursWhe}>
         Diabetic kidney disease occurs when the kidneys are damaged from both high blood pressure and high blood sugar.

@@ -29,8 +29,8 @@ export const Question2Frame: FC<Props> = memo(function Frame5(props = {}) {
     }
     const routeChange = () =>{
         let path = '/question3';
-        for (let i = 0; i < 4; i++) {
-            if (button_states[i]) navigate(path, {state:{q1_buttons: location.state.q1_buttons, q2_buttons: button_states}});
+        for (let i:number = 0; i < 4; i++) {
+            if (button_states[i]) navigate(path, {state:{q1_buttons: location.state.q1_buttons, q2_button_choice: i}});
         }
     }
   return (

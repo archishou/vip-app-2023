@@ -31,12 +31,12 @@ export const Question3Frame: FC<Props> = memo(function Frame6(props = {}) {
     }
     const routeChange = () =>{
         let path = '/results';
-        for (let i = 0; i < 4; i++) {
+        for (let i = 0; i < 2; i++) {
             if (button_states[i]) navigate(path, {
                 state: {
                     q1_buttons: location.state.q1_buttons,
-                    q2_buttons: location.state.q2_buttons,
-                    q3_buttons: button_states
+                    q2_buttons: location.state.q2_button_choice,
+                    q3_buttons: i
                 }});
         }
     }

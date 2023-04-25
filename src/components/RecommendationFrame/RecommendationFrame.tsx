@@ -1,7 +1,6 @@
 import { memo } from 'react';
 import type { FC } from 'react';
 
-import resets from '../../../../vite-react-ts-6/src/components/_resets.module.css';
 import classes from './Frame17.module.css';
 import { Undraw_showing_support_re_5f2v } from './Undraw_showing_support_re_5f2v';
 import {useLocation, useNavigate} from "react-router-dom";
@@ -98,7 +97,7 @@ export const RecommendationFrame: FC<Props> = memo(function Frame17(props = {}) 
     if (medStrings.length == 0) medStrings = "There are no matches for your input";
 
   return (
-    <div className={`${resets.storybrainResets} ${classes.root}`}>
+    <div className={`${classes.root}`}>
       <div className={classes.rectangle1}></div>
       <div className={classes.undraw_showing_support_re_5f2v}>
         <Undraw_showing_support_re_5f2v className={classes.icon} />

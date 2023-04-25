@@ -2,7 +2,6 @@ import { memo } from 'react';
 import { useNavigate } from "react-router-dom";
 import type { FC } from 'react';
 
-import resets from '../_resets.module.css';
 import classes from './Frame3.module.css';
 import { Undraw_doctors_p6aq1Icon } from './Undraw_doctors_p6aq1Icon.js';
 
@@ -17,7 +16,7 @@ export const WelcomeFrame: FC<Props> = memo(function Frame3(props = {}) {
         navigate(path);
     }
   return (
-    <div className={`${resets.storybrainResets} ${classes.root}`}>
+    <div className={`${classes.root}`}>
       <div className={classes.rectangle1}></div>
       <div className={classes.weLlRecommendTheBestTreatmentP}>
         We’ll recommend the best treatment plan for you based on your commodities and current insurance plan!

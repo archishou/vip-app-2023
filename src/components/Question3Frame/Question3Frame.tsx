@@ -1,7 +1,6 @@
 import {memo, useState} from 'react';
 import type { FC } from 'react';
 
-import resets from '../../../../vite-react-ts-5/src/components/_resets.module.css';
 import { Arrow_back_24px } from './Arrow_back_24px/Arrow_back_24px';
 import { Ellipse1Icon } from './Ellipse1Icon';
 import classes from './Frame6.module.css';
@@ -42,7 +41,7 @@ export const Question3Frame: FC<Props> = memo(function Frame6(props = {}) {
     }
 
   return (
-    <div className={`${resets.storybrainResets} ${classes.root}`}>
+    <div className={`${classes.root}`}>
       <div className={classes.rectangle1}></div>
       <div className={classes.group6921}>
         <Group6921Icon className={classes.icon2} />

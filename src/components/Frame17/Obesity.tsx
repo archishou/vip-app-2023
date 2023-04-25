@@ -45,7 +45,7 @@ export const Obesity: FC<Props> = memo(function Frame17(props = {}) {
         <Undraw_with_love_re_1q3m1Icon className={classes.icon2} />
       </div>
       <div className={classes.rectangle3}></div>
-      <div className={classes.continue} onClick={routeChange}>Continue</div>
+      <button className={classes.continue} onClick={routeChange}>Continue</button>
         <div className={classes.rectangle4} style={{backgroundColor: button_colors[button_states[1]]}}  ></div>
         <div className={classes.rectangle5} style={{backgroundColor: button_colors[button_states[0]]}} ></div>
 

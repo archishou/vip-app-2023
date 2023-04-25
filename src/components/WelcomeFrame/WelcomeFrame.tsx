@@ -12,7 +12,7 @@ interface Props {
 export const WelcomeFrame: FC<Props> = memo(function Frame3(props = {}) {
     let navigate = useNavigate();
     const routeChange = () =>{
-        let path = `/question1`;
+        let path = `/hypertension`;
         navigate(path);
     }
   return (

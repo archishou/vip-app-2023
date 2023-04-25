@@ -8,6 +8,10 @@ import { Question1Frame } from './components/Question1Frame/Question1Frame';
 import { Question2Frame } from './components/Question2Frame/Question2Frame';
 import { RecommendationFrame } from './components/RecommendationFrame/RecommendationFrame';
 import {Question3Frame} from "./components/Question3Frame/Question3Frame";
+import {Hypertension} from "./components/Frame5/Hypertension";
+import {IBS} from "./components/Frame8/IBS";
+import {Obesity} from "./components/Frame17/Obesity";
+import {DKD} from "./components/Frame32/DKD";
 
 
 interface Props {
@@ -19,7 +23,10 @@ export const App: FC<Props> = memo(function App(props = {}) {
         <BrowserRouter>
         <Routes>
             <Route path="/" element={<WelcomeFrame/>} />
-            <Route path="/question1" element={<Question1Frame/>} />
+            <Route path="/hypertension"  element={<Hypertension/>} />
+            <Route path="/ibs"          element={<IBS/>} />
+            <Route path="/obesity"      element={<Obesity/>} />
+            <Route path="/dkd"          element={<DKD/>} />
             <Route path="/question2" element={<Question2Frame/>} />
             <Route path="/question3" element={<Question3Frame/>} />
             <Route path="/results" element={<RecommendationFrame/>} />

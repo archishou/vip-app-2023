@@ -94,7 +94,7 @@ export const RecommendationFrame: FC<Props> = memo(function Frame17(props = {}) 
         }
         if (med_count >= 2) break
     }
-    if (medStrings.length == 0) medStrings = "There are no matches for your input";
+    if (medStrings.length == 0) medStrings = "There are no matches.";
 
   return (
     <div className={`${classes.root}`}>

@@ -1,11 +1,8 @@
 import {memo, useState} from 'react';
 import type { FC } from 'react';
 
-import { Arrow_back_24px } from './Arrow_back_24px/Arrow_back_24px';
-import { Ellipse1Icon } from './Ellipse1Icon';
 import classes from './Frame6.module.css';
 import { Group6921Icon } from './Group6921Icon';
-import { IconNavigationArrow_back_24pxI } from './IconNavigationArrow_back_24pxI';
 import { Undraw_with_love_re_1q3m1Icon } from './Undraw_with_love_re_1q3m1Icon';
 import {useLocation, useNavigate} from "react-router-dom";
 
@@ -60,15 +57,6 @@ export const Question3Frame: FC<Props> = memo(function Frame6(props = {}) {
       <div className={classes.undraw_with_love_re_1q3m1}>
         <Undraw_with_love_re_1q3m1Icon className={classes.icon3} />
       </div>
-      <div className={classes.ellipse1}>
-        <Ellipse1Icon className={classes.icon4} />
-      </div>
-      <Arrow_back_24px
-        className={classes.arrow_back_24px}
-        swap={{
-          iconNavigationArrow_back_24px: <IconNavigationArrow_back_24pxI className={classes.icon} />,
-        }}
-      />
     </div>
   );
 });
